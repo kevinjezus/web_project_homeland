@@ -1,0 +1,247 @@
+.header{
+    max-height: auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*background-color: brown;*/
+    align-items: center;
+}
+
+.logo{
+    width: 270px;
+    height: 70px;
+    margin: 34px 505px 0px 505px;
+    display: flex;
+    justify-content: center;
+    /*border: 1px red solid;*/
+
+}
+
+.logo__img{
+    /*border: red solid 1px;*/
+    width: 33px;
+    height: 33px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo__img_line-one{
+    width: 34px;
+    height: 2px;
+    padding-top: 6px;
+    right: 33px;
+    position:relative;
+    /*z-index: 2;*/
+
+}
+.logo__img_line-two{
+    width: 2px;
+    height: 26px;
+    position: relative;
+    top: 7px;
+    right: 53px;
+}
+
+.logo__title_cnu{
+    /*border: blue solid 1px;*/
+    height: 15px;
+    width: auto;
+    display: flex;
+}
+.logo__title_cnd{
+    /*border: blue solid 1px;*/
+    height: 15px;
+    width: auto;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo__title_cnt{
+    /*border: blue solid 1px;*/
+    height: 15px;
+    width: auto;
+    display: flex;
+}
+
+
+.logo__title{
+    margin-top: 52px;
+    width: 270px;
+    height: 15px;
+    /*border: red solid 1px;*/
+    display: flex
+}
+
+.logo__title_p{
+    width: 11.676px;
+    height: 14.545px;
+}
+.logo__title_r{
+    width: 12.159px;
+    height: 14.545px;
+}
+.logo__title_a{
+    width: 15px;
+    height: 14.545px;
+}
+.logo__title_c{
+    width: 13.636px;
+    height: 14.943px;
+}
+.logo__title_t{
+    width: 12.642px;
+    height: 14.545px;
+}
+.logo__title_i{
+    width: 3.949px;
+    height: 14.545px;
+}
+.logo__title_u{
+    width: 12.557px;
+    height: 14.716px;
+}
+.logo__title_m{
+    width: 16.761px;
+    height: 14.545px;
+
+}
+.logo__title_g{
+    width: 13.665px;
+    height: 14.943px;
+}
+.logo__title_l{
+    width: 9.83px;
+    height: 14.545px;
+}
+.logo__title_e{
+    width: 10.482px;
+    height: 14.545px;
+}
+.logo__title_y{
+    width: 14.602px;
+    height: 14.545px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .header{
+        max-height: auto;
+        min-height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo{
+        width: 270px;
+        height: 70px;
+        margin: 20px auto 0px auto;
+        display: flex;
+        justify-content: center;
+        /*border: 1px red solid;*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header{
+        max-height: auto;
+        min-height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo{
+        width: 200px;
+        height: 45px;
+        /*border: 1px blue solid;*/
+    }
+    .logo__title{
+        margin-top: 29px;
+        width: 200px;
+        height: 15px;
+        /*border: red solid 1px;*/
+        display: flex
+    }
+    .logo__img{
+        /*border: red solid 1px;*/
+        width: 22px;
+        height: 22px;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .logo__img_line-one{
+        width: 22px;
+        height: 2px;
+        padding-top: 3px;
+        right: 22px;
+        position:relative;
+        /*z-index: 2;*/
+    
+    }
+    .logo__img_line-two{
+        width: 2px;
+        height: 20px;
+        position: relative;
+        top: 2.4px;
+        right: 38px;
+    }
+
+    .logo__title_cnd{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .logo__title_p{
+        width: 9px;/*ancho*/
+        height: 10;/*altura*/
+    }
+    .logo__title_r{
+        width: 9px;
+        height: 14px;
+    }
+    .logo__title_a{
+        width: 10px;
+        height: 14px;
+    }
+    .logo__title_c{
+        width: 10px;
+        height: 14px;
+    }
+    .logo__title_t{
+        width: 10px;
+        height: 14px;
+    }
+    .logo__title_i{
+        width: 3.50px;
+        height: 14px;
+    }
+    .logo__title_u{
+        width: 10px;
+        height: 14px;
+    }
+    .logo__title_m{
+        width: 12px;
+        height: 14px;
+    
+    }
+    .logo__title_g{
+        width: 12px;
+        height: 14px;
+    }
+    .logo__title_l{
+        width: 8px;
+        height: 14px;
+    }
+    .logo__title_e{
+        width: 9px;
+        height: 14px;
+    }
+    .logo__title_y{
+        width: 11px;
+        height: 14px;
+    }
+}
